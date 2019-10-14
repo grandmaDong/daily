@@ -1,0 +1,21 @@
+{
+  "name": "hf-growup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/grandmaDong/hf-growup.git",
+  "author": "dwj <1372508407@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development",
+    "test": "ts-node-dev --respawn --transpileOnly app.ts"
+  },
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "koa": "^2.10.0",
+    "koa-router": "^7.4.0",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.43"
+  }
+}

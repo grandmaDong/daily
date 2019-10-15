@@ -1,12 +1,9 @@
 import * as KoaRouter from 'koa-router';
 
+import { operateData } from '../../controller/testTmp/controller'
+
 const testRouter = new KoaRouter()
 
-testRouter.get('/test/:id/testpage', (ctx) => {
-  // 获取参数
-  // const p = ctx.params
-  // console.log(p)
-  ctx.body = 'Hello Koa Test Router!'
-})
+testRouter.get('/test/:id/testpage', operateData)
 
 export const testRoutes = testRouter.routes();

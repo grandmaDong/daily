@@ -1,8 +1,8 @@
 {
-  "name": "hf-growup",
+  "name": "daily",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/grandmaDong/hf-growup.git",
+  "repository": "https://github.com/grandmaDong/daily.git",
   "author": "dwj <1372508407@qq.com>",
   "license": "MIT",
   "scripts": {

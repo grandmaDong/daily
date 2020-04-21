@@ -5,6 +5,9 @@ import { IEntity } from "../base/entities";
 @Entity()
 export class Blog extends IEntity {
 
+    @Column({ type: 'timestamp' })
+    readonly createdAt: Date;
+
     @Column({length: 15})
     title: string;
 

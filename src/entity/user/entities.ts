@@ -21,6 +21,9 @@ export class User extends IEntity {
     @Column({nullable: true})
     avatar: string;
 
+    @Column({ type: 'timestamp' })
+    readonly createdAt: Date;
+
     @Column({nullable: true, type: "varchar", length: 30})
     signature: string;
 

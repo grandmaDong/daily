@@ -7,7 +7,7 @@ import { blogRoutes } from './blog/blog'
 const router = new Router()
 
 router.use('/api', testRoutes)
-router.use('/blog', blogRoutes)
+router.use('/api/blog', blogRoutes)
 
 export const routes = router.routes();
 

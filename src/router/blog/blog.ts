@@ -4,7 +4,7 @@ import { Blog } from '../../entity/blog/entities'
 
 const blogRouter = new KoaRouter()
 
-blogRouter.get('/list/:id', async ctx => {
+blogRouter.get('/list', async ctx => {
   // 获取博客列表
   const params = ctx.params
   console.log('params', params)
@@ -39,7 +39,7 @@ blogRouter.post('/addblog', async ctx => { // 新增博客
     userId: 202001
   })
   
-  ctx.body =`新增博客- ${title}: ${content}`
+  ctx.body =`新增博客- ${newBlog.title}: ${newBlog.content}`
 })
 
 export const blogRoutes = blogRouter.routes();

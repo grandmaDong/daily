@@ -3,8 +3,8 @@
     "host": "localhost",
     "port": 3306,
     "username": "root",
-    "password": "",
-    "database": "bolgDwj",
+    "password": "12345678",
+    "database": "dwj_blog",
     "synchronize": false,
     "logging": false,
     "entities": [
